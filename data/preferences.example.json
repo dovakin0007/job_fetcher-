@@ -1,0 +1,13 @@
+{
+  "name": "Candidate",
+  "summary": "Backend engineer building services in Go and Rust, distributed systems and data platforms.",
+  "skills": ["Go", "Rust", "PostgreSQL", "gRPC", "Tokio", "Axum", "BigQuery", "ClickHouse", "Docker", "Kubernetes", "OpenTelemetry"],
+  "experience_years": 4,
+  "preferred_titles": ["Backend Engineer", "Senior Software Engineer", "Platform Engineer", "Systems Engineer"],
+  "role_keywords": ["fellow", "sre"],
+  "preferred_locations": ["Bengaluru", "Remote", "India"],
+  "excluded_keywords": ["unpaid", "commission only"],
+  "minimum_match_score": 65,
+  "projects": [],
+  "preferred_work_modes": ["Remote", "Hybrid", "On-site"]
+}

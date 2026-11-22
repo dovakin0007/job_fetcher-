@@ -1,0 +1,40 @@
+[package]
+name = "rust-job-agent"
+version = "0.6.0"
+edition = "2021"
+
+[features]
+default = []
+onnx = ["dep:ort", "dep:tokenizers", "dep:ndarray"]
+
+[dependencies]
+aes-gcm = "0.10"
+futures = "0.3"
+getrandom = "0.2"
+anyhow = "1"
+base64 = "0.22"
+async-trait = "0.1"
+axum = { version = "0.7", features = ["multipart"] }
+chrono = { version = "0.4", features = ["clock", "serde"] }
+ndarray = { version = "0.16", optional = true }
+ort = { version = "2.0.0-rc.15", optional = true, features = ["ndarray", "download-binaries", "tls-native"] }
+pdf-extract = "0.7"
+printpdf = "0.7"
+quick-xml = "0.37"
+zip = { version = "2", default-features = false, features = ["deflate"] }
+regex = "1"
+reqwest = { version = "0.12", features = ["json", "multipart", "rustls-tls"] }
+scraper = "0.22"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+sqlx = { version = "0.8", features = ["runtime-tokio-rustls", "sqlite", "chrono", "macros"] }
+imap = "2.4"
+mailparse = "0.14"
+native-tls = "0.2"
+tokenizers = { version = "0.21", optional = true }
+tokio = { version = "1", features = ["full"] }
+tower-http = { version = "0.5", features = ["cors", "fs", "trace"] }
+tracing = "0.1"
+tracing-subscriber = { version = "0.3", features = ["env-filter"] }
+uuid = { version = "1", features = ["v4", "serde"] }
+dotenvy = "0.15.7"

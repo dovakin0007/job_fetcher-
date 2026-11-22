@@ -1,0 +1,23 @@
+# Secrets and local credentials
+.env
+.env.*
+!.env.example
+data/.master_key
+
+# Local database (sealed API keys and application data)
+data/*.db
+data/*.db-*
+
+# Uploaded resumes and local personal profile
+uploads/
+data/resume.pdf
+candidate_profile.json
+data/preferences.json
+
+# Build output
+target/
+web/node_modules/
+web/dist/
+
+# Large local model (download separately; too big for GitHub)
+models/*.onnx

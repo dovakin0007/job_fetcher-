@@ -1,0 +1,15 @@
+{
+  "sources": [
+    {
+      "name": "Permitted company careers listing",
+      "url": "https://careers.example.com/jobs",
+      "kind": "listing",
+      "max_pages": 15
+    },
+    {
+      "name": "Individual public job posting",
+      "url": "https://careers.example.com/jobs/backend-engineer",
+      "kind": "posting"
+    }
+  ]
+}

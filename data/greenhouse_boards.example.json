@@ -1,0 +1,8 @@
+{
+  "boards": [
+    {
+      "token": "your-board-token",
+      "name": "Company name"
+    }
+  ]
+}

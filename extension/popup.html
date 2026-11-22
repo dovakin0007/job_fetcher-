@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Rust Job Agent Autofill</title>
+    <style>
+      body { margin: 0; width: 320px; font: 13px/1.4 system-ui, sans-serif; color: #e8eef9; background: #121722; }
+      main { padding: 14px; }
+      h1 { font-size: 15px; margin: 0 0 8px; }
+      p { margin: 0 0 10px; color: #b7c3d6; }
+      button { width: 100%; border: 0; border-radius: 8px; padding: 8px 10px; background: #6d8dff; color: white; font: inherit; cursor: pointer; }
+      button:disabled { opacity: 0.6; cursor: default; }
+      #status { margin-top: 10px; min-height: 72px; white-space: pre-wrap; }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>Fill this application</h1>
+      <p>Fills empty application fields and attaches your saved resume. It skips demographic questions and does not submit.</p>
+      <button id="fill" type="button">Fill + attach resume</button>
+      <button id="applied" type="button" style="margin-top:8px;background:#2f9e6e;">I submitted — mark applied</button>
+      <p id="status"></p>
+    </main>
+    <script src="popup.js"></script>
+  </body>
+</html>

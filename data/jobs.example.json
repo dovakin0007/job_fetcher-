@@ -1,0 +1,4 @@
+[
+  {"external_id":"sample-rust-backend-001","source":"fixture","title":"Senior Backend Engineer - Rust","company":"Example Systems","location":"Bengaluru / Remote","description":"Build distributed backend services in Rust and Go using Tokio, PostgreSQL, gRPC and cloud infrastructure.","skills":["Rust","Go","Tokio","PostgreSQL","gRPC"],"min_experience":3,"max_experience":7,"url":"https://example.com/jobs/sample-rust-backend-001","discovered_at":"2026-11-11T00:00:00Z","work_mode":"Hybrid"},
+  {"external_id":"sample-go-platform-002","source":"fixture","title":"Go Platform Engineer","company":"Example Cloud","location":"Remote India","description":"Develop backend APIs, distributed systems and data services in Go, PostgreSQL, Docker and Kubernetes.","skills":["Go","PostgreSQL","Docker","Kubernetes"],"min_experience":3,"max_experience":6,"url":"https://example.com/jobs/sample-go-platform-002","discovered_at":"2026-11-11T00:00:00Z","work_mode":"Remote"}
+]
